@@ -1,0 +1,63 @@
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    background-color:#FEFAF5;
+    background-size: cover;
+    padding:3.125rem;
+}
+.hero-content{
+    width:34.375rem;
+}
+.hero-image{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3.125rem;
+}
+.hero-image img{
+    width:50%;
+}
+.hero-content__title{
+    color: #335576;
+}
+.hero-content__subtitle{
+    color: #335576;
+    font-size: 0.875rem;
+}
+.hero-content__button{
+    padding:0.3125rem;
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    width:9.375rem;
+    border-radius: 6.25rem;
+    border: 0.0625rem rgba(0,0,0,0.2);
+}
+.recommendations__title{
+    color:#335576;
+    margin: 3.125rem;
+}
+
+.recommendations__card, .recommendations__card img{
+    height:18.75rem;
+    width:12.5rem;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid rgba(0,0,0,0.2);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0,0,0,0.2);
+}
+.recommendations__card{
+    margin:0.625rem;
+    position: relative;
+}
+.recommendations__card img{
+    object-fit: cover;
+}
+
+.recommendations__card--title{
+    position:absolute;
+    bottom:0;
+    right:0;
+    color: #FFFFFF;
+    padding: 0.625rem;
+}
+

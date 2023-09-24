@@ -1,0 +1,53 @@
+
+.hawaii-hero-container{
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+.greece-hero-container{
+    background-image: url(../assets/Images/greece.jpg);
+}
+.iceland-hero-container{
+    background-image: url(../assets/Images/iceland.jpg);
+    
+}
+.hawaii-hero-container,.greece-hero-container,.iceland-hero-container{
+    background-size: cover;
+    background-position: center;
+    padding: 3.75rem;
+}
+.hawaii-hero__title,.greece-hero__title,.iceland-hero__title{
+    color:#fff;
+    margin: 3.75rem;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.hawaii-hero,.greece-hero,.iceland-hero{
+    display:flex;
+    justify-content:center;
+}
+.hawaii-hero__card,.greece-hero__card,.iceland-hero__card{
+    border-radius: 0.3125rem;
+    border: 0.0625rem rgba(0,0,0,0.2);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    width: 12.5rem;
+    padding: 1.25rem;
+    margin:1.25rem;
+    background-color: #fff;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-sections hr{
+    border: 0.0625rem solid black;
+    margin: 1.25rem;
+}
+.card-title__sub{
+    background-color: #FEFAF5;
+    text-align: center;
+    line-height: 2;
+    width:12.5rem;
+    margin: 1.25rem;
+    
+}

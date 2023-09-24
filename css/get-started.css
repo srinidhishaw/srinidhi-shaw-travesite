@@ -1,0 +1,34 @@
+input[type=text] {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border-radius: 6.25rem;
+    border: 0.125rem solid #DB7A4E;
+  }
+  .labels{
+    line-height: 3.5;
+    width:12.5rem;
+    font-size: 1.125rem;
+    text-align: right;
+    margin: 0.625rem;
+    color: #335576;
+  }
+  .getstarted{
+    display: flex;
+    justify-content: center;
+  } 
+  .getstarted-components{
+    display: flex;
+   align-items: center;
+   margin:0 3.125rem;
+  }
+  .button--submit{
+    padding:0.3125rem;
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    width:9.375rem;
+    height:50%;
+    border-radius: 6.25rem;
+    border: 0.0625rem rgba(0,0,0,0.2);
+  }
